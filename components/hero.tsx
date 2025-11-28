@@ -262,7 +262,7 @@ export function Hero() {
               </div>
 
               <h1 className="font-serif text-2xl md:text-3xl lg:text-4xl font-light text-[#1C1C1C] leading-tight mb-2">
-                Análise Profissional <span className="text-[#B49B6B]">Casinos Online</span>
+                Análise Profissional <span className="text-[#B49B6B]">Casinos</span>
               </h1>
 
               <p className="text-xs md:text-sm text-[#666] max-w-md leading-relaxed mb-3 hidden md:block">
