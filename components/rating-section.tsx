@@ -3,7 +3,7 @@ import { bettingSites } from "@/lib/mock-data"
 
 export function RatingSection() {
   return (
-    <section className="py-20 px-6 bg-[#FAF8F5]">
+    <section className="py-12 px-6 bg-[#FAF8F5]">
       <div className="container mx-auto max-w-5xl">
 
         {/* Casino cards */}

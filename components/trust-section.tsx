@@ -41,9 +41,9 @@ export function TrustSection() {
   ]
 
   return (
-    <section ref={sectionRef} className="py-4 md:py-12 bg-[#FAF8F5] border-y border-[#E8E4DC]">
+    <section ref={sectionRef} className="py-4 md:py-8 bg-[#FAF8F5] border-y border-[#E8E4DC]">
       <div className="container mx-auto max-w-6xl px-3 md:px-6">
-        <div className="hidden md:flex items-center gap-4 mb-8">
+        <div className="hidden md:flex items-center gap-4 mb-4">
           <span className="text-[10px] tracking-[0.3em] uppercase text-[#B49B6B] font-medium">
             Indicadores de Segurança
           </span>
@@ -59,7 +59,7 @@ export function TrustSection() {
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <span className="block text-sm md:text-3xl font-serif text-[#1C1C1C] tracking-wide">
+              <span className="block text-sm md:text-lg font-serif text-[#1C1C1C] tracking-wide">
                 {indicator.value}
               </span>
               <span className="text-[6px] md:text-xs text-[#B49B6B] uppercase tracking-[0.1em] md:tracking-[0.15em] mt-0.5 md:mt-1 block font-medium leading-tight">

@@ -8,6 +8,7 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
+    { label: "Home", href: "/" },
     { label: "Sobre Nós", href: "/sobre-nos" },
   ]
 
@@ -35,6 +36,11 @@ export function Header() {
               </Link>
             ))}
           </nav>
+
+          <div className="flex items-center gap-4">
+            <Image src="/srij.svg" alt="Logo" width={32} height={32} />
+            <p className="text-xs text-red-900 mt-1 border-red-900 border rounded-full w-6 h-6 flex items-center justify-center">18+</p>
+          </div>
 
           {/* Mobile Toggle */}
           <button className="md:hidden text-[#1C1C1C]" onClick={() => setIsOpen(!isOpen)}>
