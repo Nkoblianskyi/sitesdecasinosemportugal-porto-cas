@@ -24,21 +24,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Links */}
-          <div>
-            <span className="text-xs text-[#B49B6B] uppercase tracking-wide block mb-4">Navegação</span>
-            <div className="space-y-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  className="block text-sm text-white/60 hover:text-white transition-colors"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </div>
 
           {/* Legal */}
           <div>
